@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/device_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:textColor="@color/black_light"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp"
+        tools:text="@string/device_size" />
+
+    <TextView
+        android:id="@+id/device_density"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:textColor="@color/black_light"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/device_size"
+        app:layout_constraintTop_toBottomOf="@+id/device_size"
+        tools:text="@string/device_density" />
+
+    <TextView
+        android:id="@+id/device_status_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:textColor="@color/black_light"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/device_size"
+        app:layout_constraintTop_toBottomOf="@+id/device_density"
+        tools:text="@string/device_status_bar" />
+
+    <TextView
+        android:id="@+id/device_navigation_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:textColor="@color/black_light"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/device_size"
+        app:layout_constraintTop_toBottomOf="@+id/device_status_bar"
+        tools:text="@string/device_status_bar" />
+</android.support.constraint.ConstraintLayout>

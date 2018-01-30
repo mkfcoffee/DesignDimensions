@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DesignDimensions</string>
+    <string name="device_size">屏幕分辨率：%1$dx%2$d</string>
+    <string name="device_density">屏幕密度：1dp=%1$dpx</string>
+    <string name="device_status_bar">状态栏高度：%1$dpx</string>
+    <string name="device_navigation_bar">虚拟按键高度：%1$dpx</string>
+</resources>
